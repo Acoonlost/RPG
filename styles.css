@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#chat-box {
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#input-box {
+    display: flex;
+    margin-top: 10px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
